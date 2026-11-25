@@ -1,0 +1,26 @@
+{
+  "timestamp_utc": "2026-11-26T00:00:00Z",
+  "model_evaluated": "ResNet50V2_Attention_UNet (final_resnet_attention_unet.keras)",
+  "hardware_accelerator": "Windows CPU (NB 12 Live Evaluation)",
+  "total_images": 5538,
+  "class_1_spills_total": 1843,
+  "class_0_lookalikes_total": 3695,
+  "confusion_matrix": {
+    "true_positives_tp": 1490,
+    "true_negatives_tn": 2698,
+    "false_positives_fp": 997,
+    "false_negatives_fn": 353
+  },
+  "performance_metrics": {
+    "accuracy": 75.62,
+    "spill_recall_sensitivity": 80.85,
+    "precision": 59.91,
+    "lookalike_rejection_specificity": 73.02,
+    "f1_score": 68.82,
+    "false_alarm_rate": 26.98
+  },
+  "timing_and_throughput": {
+    "total_benchmark_time_sec": 397.15,
+    "throughput_images_per_sec": 13.9
+  }
+}

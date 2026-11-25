@@ -1,0 +1,26 @@
+# Heavy ML model weights (distributed via GitHub Releases)
+ml/models/*.keras
+ml/models/*.pkl
+ml/models/*.h5
+ml/models/*.pt
+ml/models/*.pth
+ml/models/*.onnx
+
+# Python caches & environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Node / Vite frontend build & deps
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Environment files
+.env
+.env.*
+!.env.example

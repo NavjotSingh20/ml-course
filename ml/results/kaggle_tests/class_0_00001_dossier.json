@@ -1,0 +1,32 @@
+{
+  "timestamp_utc": "2026-11-20T19:15:18.331243Z",
+  "dataset_source": "CSIRO Sentinel-1 SAR (Kaggle)",
+  "input_image": "class_0_00001.jpg",
+  "ground_truth_class": 0,
+  "classification": "PROBABLE LOOK-ALIKE (Low-Wind Zone / Regional Calm Sea)",
+  "pipeline_action": "SUPPRESS ALERT (Diffuse calm sea zone covering 21.1% of frame)",
+  "morphometrics": {
+    "slick_pixels": 13857,
+    "coverage_pct": 21.14,
+    "area_km2": 1.3857,
+    "aspect_ratio": 1.47,
+    "damping_ratio_db": 2.7,
+    "centroid_pixel": [
+      187.7,
+      154.0
+    ],
+    "bonn_volume_mt": [
+      58.89,
+      588.92
+    ]
+  },
+  "coordinates": {
+    "slick_lat": -12.465735609054976,
+    "slick_lon": 130.85109235006564,
+    "origin_lat": null,
+    "origin_lon": null,
+    "dispersion_radius_m": null
+  },
+  "suspect_vessels": [],
+  "sha256_hash": "f74672fd7fbd69c2316c62e29a7e4a2e9a6c332c3cb31e4b55f3e4ab922d56fa"
+}

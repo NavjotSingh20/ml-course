@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- Dark circular backing for contrast across all browser tab themes -->
+  <circle cx="16" cy="16" r="15.5" fill="#030712" />
+
+  <!-- Outer Tactical Dashed Ring -->
+  <circle cx="16" cy="16" r="13.5" stroke="#00f0ff" stroke-width="1.6" stroke-opacity="0.5" stroke-dasharray="2.8 2.8" />
+
+  <!-- Antenna Mast & Satellite Node -->
+  <path d="M16 3.5V8M16 12V14.5" stroke="#00f0ff" stroke-width="1.8" stroke-linecap="round" />
+  <circle cx="16" cy="10" r="2.4" fill="#00f0ff" />
+
+  <!-- Primary Ocean Wave Crest -->
+  <path
+    d="M5.5 18C9.5 14 13.5 14 16 16C18.5 18 22.5 18 26.5 14"
+    stroke="#00f0ff"
+    stroke-width="2.2"
+    stroke-linecap="round"
+  />
+
+  <!-- Secondary Bathymetric Wave Crest -->
+  <path
+    d="M8.5 22C11.5 19 14.5 19 16 20C17.5 21 20.5 21 23.5 18"
+    stroke="#00b4d8"
+    stroke-width="1.8"
+    stroke-opacity="0.85"
+    stroke-linecap="round"
+  />
+</svg>

@@ -1,0 +1,35 @@
+{
+  "timestamp_utc": "2026-11-19T22:28:42.945354Z",
+  "dataset_source": "CSIRO Sentinel-1 SAR Oil Spill Dataset (Kaggle)",
+  "input_image": "class_1_00002.jpg",
+  "ground_truth_class": 1,
+  "model_used": "Attention U-Net (best_attention_unet.keras)",
+  "classification": "NEGATIVE / CLEAN WATER",
+  "pipeline_action": "DISMISS (No slick detected)",
+  "metrics": {
+    "slick_pixels": 0,
+    "coverage_pct": 0.0,
+    "area_km2": 0.0,
+    "area_m2": 0.0,
+    "aspect_ratio": 0.0,
+    "damping_ratio_db": 0.0,
+    "centroid_pixel": [
+      128.0,
+      128.0
+    ],
+    "slick_count": 0,
+    "bonn_volume_mt": [
+      0.0,
+      0.0
+    ]
+  },
+  "coordinates": {
+    "slick_observed_lat": -12.4634,
+    "slick_observed_lon": 130.8456,
+    "origin_centroid_lat": null,
+    "origin_centroid_lon": null,
+    "dispersion_radius_m": null
+  },
+  "suspect_vessels": [],
+  "sha256_hash": "86c75cfaec45f4936e4e8bf75f82d7e2b5b0fb9e434efdb8e7a7dc99b1503e4b"
+}

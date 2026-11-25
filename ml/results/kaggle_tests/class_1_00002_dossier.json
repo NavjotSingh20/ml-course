@@ -1,0 +1,32 @@
+{
+  "timestamp_utc": "2026-11-20T19:15:17.739886Z",
+  "dataset_source": "CSIRO Sentinel-1 SAR (Kaggle)",
+  "input_image": "class_1_00002.jpg",
+  "ground_truth_class": 1,
+  "classification": "NEGATIVE / CLEAN WATER",
+  "pipeline_action": "DISMISS (No slick detected)",
+  "morphometrics": {
+    "slick_pixels": 0,
+    "coverage_pct": 0.0,
+    "area_km2": 0.0,
+    "aspect_ratio": 0.0,
+    "damping_ratio_db": 0.0,
+    "centroid_pixel": [
+      128.0,
+      128.0
+    ],
+    "bonn_volume_mt": [
+      0.0,
+      0.0
+    ]
+  },
+  "coordinates": {
+    "slick_lat": -12.4634,
+    "slick_lon": 130.8456,
+    "origin_lat": null,
+    "origin_lon": null,
+    "dispersion_radius_m": null
+  },
+  "suspect_vessels": [],
+  "sha256_hash": "718f4b862bd574f4b83dcb89903c4e3e6d92fdbde31e7f73db2330f7a1480238"
+}

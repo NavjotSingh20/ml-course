@@ -1,0 +1,3 @@
+mask_name,mask_mode,shape,unique_value_count
+palsar_0.png,RGB,"(256, 256, 3)",2
+palsar_2000.png,L,"(256, 256)",2

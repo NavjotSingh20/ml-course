@@ -1,0 +1,2 @@
+Model,Dice,IoU,Precision,Recall
+ResNet50V2 Attention U-Net (best_resnet_attention_unet_2),0.8808,0.7871,0.8786,0.8831

@@ -1,0 +1,47 @@
+{
+  "timestamp_utc": "2026-11-19T22:20:50.431859Z",
+  "dataset_source": "CSIRO Sentinel-1 SAR (Kaggle)",
+  "input_image": "class_1_00003.jpg",
+  "ground_truth_class": 1,
+  "classification": "CONFIRMED HYDROCARBON SPILL (Active Alert)",
+  "pipeline_action": "DISPATCH INTERCEPTION (Vessel discharge streak, AR=1.87, 0.066 km\u00b2)",
+  "morphometrics": {
+    "slick_pixels": 663,
+    "coverage_pct": 1.01,
+    "area_km2": 0.0663,
+    "aspect_ratio": 1.87,
+    "damping_ratio_db": 0.91,
+    "centroid_pixel": [
+      123.1,
+      202.1
+    ],
+    "bonn_volume_mt": [
+      2.82,
+      28.18
+    ]
+  },
+  "coordinates": {
+    "slick_lat": -12.470056485806683,
+    "slick_lon": 130.84514920409845,
+    "origin_lat": -12.468234062194824,
+    "origin_lon": 130.84088134765625,
+    "dispersion_radius_m": 1444.0
+  },
+  "suspect_vessels": [
+    {
+      "vessel_name": "PACIFIC EXPLORER",
+      "mmsi": 563082000,
+      "distance_m": 420.0,
+      "time_delta_min": -15,
+      "confidence": 0.94
+    },
+    {
+      "vessel_name": "OCEAN VOYAGER",
+      "mmsi": 538008120,
+      "distance_m": 1280.0,
+      "time_delta_min": -45,
+      "confidence": 0.68
+    }
+  ],
+  "sha256_hash": "396c49a54736065c36a8bfbf258a789f8414d84e3b69eb7beca04e7ff81781a1"
+}

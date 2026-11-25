@@ -1,0 +1,49 @@
+{
+  "timestamp_utc": "2026-11-19T22:16:27.931451Z",
+  "input_image": "kaggle\\data\\Class_0\\class_0_00001.jpg",
+  "classification": "CONFIRMED HYDROCARBON SPILL (Active Alert)",
+  "metrics": {
+    "slick_pixels": 17452,
+    "coverage_pct": 26.63,
+    "area_km2": 1.7452,
+    "area_m2": 1745200.0,
+    "aspect_ratio": 0.59,
+    "centroid_pixel": [
+      181.9,
+      154.1
+    ],
+    "slick_count": 9,
+    "bonn_volume_mt": [
+      7.42,
+      74.17
+    ]
+  },
+  "coordinates": {
+    "slick_observed_lat": 18.799855407833274,
+    "slick_observed_lon": 72.96741484108466,
+    "origin_centroid_lat": 18.85528564453125,
+    "origin_centroid_lon": 72.92507934570312,
+    "dispersion_radius_m": 905.1
+  },
+  "suspect_vessels": [
+    {
+      "vessel_name": "MT PACIFIC TRADER",
+      "mmsi": 419001284,
+      "imo": 9481234,
+      "flag": "Panama",
+      "distance_to_origin_m": 420.0,
+      "ais_status": "AIS-DARK (Transponder ceased at T-5.2h)",
+      "attribution_score": "94.6% (HIGH PROBABILITY)"
+    },
+    {
+      "vessel_name": "STARLIGHT CARRIER",
+      "mmsi": 538008129,
+      "imo": 9238192,
+      "flag": "Liberia",
+      "distance_to_origin_m": 1840.0,
+      "ais_status": "NOMINAL AIS (Passed 1.8km south)",
+      "attribution_score": "12.4% (LOW PROBABILITY)"
+    }
+  ],
+  "sha256_hash": "85d28dcb754c490c791835be267463f02eccd600a21016affcde846caa5b52ae"
+}

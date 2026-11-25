@@ -1,0 +1,54 @@
+{
+  "timestamp_utc": "2026-11-24T18:17:23.412518Z",
+  "dataset_source": "CSIRO Sentinel-1 SAR Oil Spill Dataset (Kaggle)",
+  "input_image": "class_1_00001.jpg",
+  "ground_truth_class": 1,
+  "model_used": "Attention U-Net (best_attention_unet.keras)",
+  "classification": "CONFIRMED HYDROCARBON SPILL (Active Alert)",
+  "pipeline_action": "DISPATCH INTERCEPTION (Vessel discharge streak, AR=2.78, 0.078 km\u00b2)",
+  "metrics": {
+    "slick_pixels": 776,
+    "coverage_pct": 1.18,
+    "area_km2": 0.0776,
+    "area_m2": 77600.0,
+    "aspect_ratio": 2.78,
+    "damping_ratio_db": 0.99,
+    "centroid_pixel": [
+      234.2,
+      121.3
+    ],
+    "slick_count": 1,
+    "bonn_volume_mt": [
+      3.3,
+      32.98
+    ]
+  },
+  "coordinates": {
+    "slick_observed_lat": -12.462798131512756,
+    "slick_observed_lon": 130.85537031117207,
+    "origin_centroid_lat": -12.45334243774414,
+    "origin_centroid_lon": 130.84983825683594,
+    "dispersion_radius_m": 295.6
+  },
+  "suspect_vessels": [
+    {
+      "vessel_name": "MT PACIFIC TRADER",
+      "mmsi": 419001284,
+      "imo": 9481234,
+      "flag": "Panama",
+      "distance_to_origin_m": 420.0,
+      "ais_status": "AIS-DARK (Transponder ceased at T-5.2h)",
+      "attribution_score": "94.6% (HIGH PROBABILITY)"
+    },
+    {
+      "vessel_name": "STARLIGHT CARRIER",
+      "mmsi": 538008129,
+      "imo": 9238192,
+      "flag": "Liberia",
+      "distance_to_origin_m": 1840.0,
+      "ais_status": "NOMINAL AIS (Passed 1.8km south)",
+      "attribution_score": "12.4% (LOW PROBABILITY)"
+    }
+  ],
+  "sha256_hash": "914915b2f824e9b06e061ae675a56e1c55302ded156de2e27b38bbeaef9a6eda"
+}
