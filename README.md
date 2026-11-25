@@ -254,13 +254,6 @@ MARIS is a research prototype. It does not produce legal evidence or identify re
 
 <br/>
 
-## Team
-
-| Name | Roll number |
-|:--|:--|
-| Lavdeep Singh | 1024030107 |
-| Kriti | 1024030111 |
-
 Machine Learning Project (UML501), Department of Computer Science and Engineering, Thapar Institute of Engineering and Technology, Patiala.
 
 <details>
