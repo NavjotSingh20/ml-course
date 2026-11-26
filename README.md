@@ -201,7 +201,7 @@ MARIS is a research prototype. It does not produce legal evidence or identify re
 **Roadmap**
 
 - [ ] Scene-grouped re-split and identical-settings retraining of all models
-- [ ] Train the screening stage on look-alike-rich data; add wind, calibrated sigma0 contrast and edge features
+- [ ] Train the screening stage on look-alike-rich data- add wind, calibrated sigma0 contrast and edge features
 - [ ] Run the network on calibrated scenes with a sliding window; seed the hindcast automatically from detections
 - [ ] Real AIS tracks intersected with the hindcast origin cloud; connect the dashboard to the live backend
 - [ ] Distillation or a lighter encoder for on-board hardware
